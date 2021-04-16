@@ -66,3 +66,7 @@ def undo_card_movement(id):
 
     if response.status_code != 200:
         raise Exception(f"Wrong status code returned for a move cards request: {response.status_code}")
+
+def show_all_done_items():
+def recent_done_items():
+def older_done_items():

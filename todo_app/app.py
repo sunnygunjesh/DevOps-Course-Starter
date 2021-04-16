@@ -11,7 +11,9 @@ app = Flask(__name__)
 def index():
     raw_trello_cards = trello.get_cards()
     items = [TodoItem.from_raw_trello_card(card) for card in raw_trello_cards]
-    return  render_template('index.html',items=items)
+    return  (item_view_model = ViewModel(items)
+             render_template('index.html',
+             view_model=item_view_model)) 
 
 @app.route('/item/add', methods=["POST"])
 def add_item():
