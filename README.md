@@ -74,4 +74,5 @@ $ docker run --env-file ./.env -p 5000:5000 todo-app:prod
 
 ## Where to check and stop the app from running
 Check the running of app on http://127.0.0.1:5000/
+
 To stop, one to stop the container from running
