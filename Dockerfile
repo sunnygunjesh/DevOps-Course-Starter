@@ -35,10 +35,4 @@ ENV FLASK_ENV=production
 
 # Run Gunicorn 
 RUN poetry add gunicorn
-ENTRYPOINT ["poetry", "run", "gunicorn", "--bind", "0.0.0.0:5000" ,"todo_app.app:app"]   
-
-#WORKDIR /DevOps-Course-Starter/todo_app
-#RUN echo $PATH
-#ENTRYPOINT ["app:app"]
-
-#WORKDIR /DevOps-Course-Starter
+ENTRYPOINT ["poetry", "run", "gunicorn", "--bind", "0.0.0.0:5000" ,"todo_app.app:app"]
