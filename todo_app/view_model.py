@@ -4,7 +4,7 @@ class ViewModel:
 
     @property
     def items(self):
-        return self.items
+        return self._items
 
     @property
     def todo_items(self):
