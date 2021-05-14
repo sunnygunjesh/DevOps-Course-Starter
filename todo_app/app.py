@@ -1,7 +1,7 @@
 from flask import Flask,render_template, redirect, request
 
 import todo_app.trello_mod as trello
-
+import todo_app.view_model as ViewModel
 from todo_app.todo_item import TodoItem
 
 app = Flask(__name__)
@@ -11,7 +11,8 @@ app = Flask(__name__)
 def index():
     raw_trello_cards = trello.get_cards()
     items = [TodoItem.from_raw_trello_card(card) for card in raw_trello_cards]
-    return  render_template('index.html',items=items)
+    item_view_model = ViewModel(items)
+    return  render_template('index.html',view_model=item_view_model)
 
 @app.route('/item/add', methods=["POST"])
 def add_item():

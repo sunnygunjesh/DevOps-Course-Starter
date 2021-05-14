@@ -1,4 +1,4 @@
-from todo_app.view_model import Viewmodel
+from todo_app.view_model import ViewModel
 from todo_app.todo_item import TodoItem
 
 def test_viewmodel_todo_items():
@@ -7,7 +7,7 @@ def test_viewmodel_todo_items():
              TodoItem(2,"Doing", "This is for Doing items"),
              TodoItem(3,"Done", "This is for Done items")
             ]
-    viewmodel = Viewmodel(items)
+    viewmodel = ViewModel(items)
     todoitems = viewmodel.todo_items
 
     assert len(todoitems) == 1
@@ -18,12 +18,12 @@ def test_viewmodel_doing_items():
     items = [
               TodoItem(1, "This is for Doing items","Doing")
             ]
-    doingitems = Viewmodel.doing_items
+    doingitems = ViewModel.doing_items
     assert doingitems
 
 def test_viewmodel_done_items():
     items = [
               TodoItem(1, "This is for Done items","Done")
             ]
-    doneitems = Viewmodel.done_items
+    doneitems = ViewModel.done_items
     assert doneitems
