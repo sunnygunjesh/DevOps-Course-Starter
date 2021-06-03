@@ -16,14 +16,26 @@ def test_viewmodel_todo_items():
 
 def test_viewmodel_doing_items():
     items = [
-              TodoItem(1, "This is for Doing items","Doing")
+              TodoItem(1,"To Do", "This is for Doing items"),
+              TodoItem(2,"Doing", "This is for Doing items"),
+              TodoItem(3,"Done", "This is for Done items")
             ]
-    doingitems = ViewModel.doing_items
-    assert doingitems
+    viewmodel = ViewModel(items)
+    doingitems = viewmodel.doing_items
+
+    assert len(doingitems) == 1
+    item = doingitems[0]
+    assert item.status == 'Doing'
 
 def test_viewmodel_done_items():
     items = [
-              TodoItem(1, "This is for Done items","Done")
+              TodoItem(1,"To Do", "This is for Doing items"),
+              TodoItem(2,"Doing", "This is for Doing items"),
+              TodoItem(3,"Done", "This is for Done items")
             ]
-    doneitems = ViewModel.done_items
-    assert doneitems
+    viewmodel = ViewModel(items)
+    doneitems = viewmodel.done_items
+
+    assert len(doneitems) == 1
+    item = doneitems[0]
+    assert item.status == 'Done'
