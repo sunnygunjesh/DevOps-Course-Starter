@@ -1,5 +1,4 @@
 import json
-from todo_app import trello_config
 import requests
 
 
@@ -19,7 +18,8 @@ def add_card(title,trello_config):
 
     if response.status_code != 200:
         raise Exception(f"Wrong status code returned for a add card request: {response.status_code}")
-def get_card_by_id(id):
+
+def get_card_by_id(id, trello_config):
     getcard = {'idList': trello_config.doing_list_id, 'key': trello_config.key, 'token': trello_config.token}
     get_card_url = f"{trello_config.base_url}/cards/{id}"
     response = requests.get(url = get_card_url, params=getcard)

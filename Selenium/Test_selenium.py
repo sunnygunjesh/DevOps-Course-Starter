@@ -15,7 +15,7 @@ def app_with_temp_board():
     dotenv.load_dotenv(file_path, override=True)
    
     # Create the new board & update the board id environment variable
-    board_id = create_trello_board(config)
+    board_id = create_trello_board(USE_A_REAL_INSTANCE_OF_TRELLO_CONFIG_HERE)
     os.environ['BOARD_ID'] = board_id
 
     # construct the new application    
