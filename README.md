@@ -61,3 +61,18 @@ Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser
 
 Above can be run in batch by using the setup.sh script 
 The script installs PyEnv, pip, poetry. Clone the web-app and copy the environment variables
+
+## Running app via Docker
+
+## Build Development Docker image and Run the To-Do App
+`$ docker build --target development --tag todo-app:dev .`
+`$ docker run --env-file ./.env -p 5000:5000 --mount type=bind,source="$(pwd)/todo_app",target=/DevOps-Course-Starter/todo_app todo-app:dev`
+
+## Build Production Docker image and Run the To-Do App
+$ docker build --target production --tag todo-app:prod .
+$ docker run --env-file ./.env -p 5000:5000 todo-app:prod
+
+## Where to check and stop the app from running
+Check the running of app on http://127.0.0.1:5000/
+
+To stop, one to stop the container from running
