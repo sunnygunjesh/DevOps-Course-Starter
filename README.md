@@ -65,8 +65,8 @@ The script installs PyEnv, pip, poetry. Clone the web-app and copy the environme
 ## Running app via Docker
 
 ## Build Development Docker image and Run the To-Do App
-$ docker build --target development --tag todo-app:dev .
-$ docker run --env-file ./.env -p 5000:5000 --mount type=bind,source="$(pwd)/todo_app",target=/DevOps-Course-Starter/todo_app todo-app:dev
+`$ docker build --target development --tag todo-app:dev .`
+`$ docker run --env-file ./.env -p 5000:5000 --mount type=bind,source="$(pwd)/todo_app",target=/DevOps-Course-Starter/todo_app todo-app:dev`
 
 ## Build Production Docker image and Run the To-Do App
 $ docker build --target production --tag todo-app:prod .
