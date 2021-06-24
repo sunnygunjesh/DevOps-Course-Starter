@@ -1,0 +1,168 @@
+1624457081016	geckodriver	INFO	Listening on 127.0.0.1:58676
+1624457084081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilen72Q1B"
+1624457087926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilen72Q1B\\search.json.mozlz4", (void 0)))
+1624457098621	Marionette	INFO	Listening on port 58695
+1624457098977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624457100320	Marionette	INFO	Stopped listening on port 58695
+1624457295176	geckodriver	INFO	Listening on 127.0.0.1:52643
+1624457298221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile8OXRCL"
+1624457299808	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile8OXRCL\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileLyz2EX\\search.json.mozlz4", (void 0)))
+1624457378752	Marionette	INFO	Listening on port 52714
+1624458262262	Marionette	INFO	Stopped listening on port 52714
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ionette	INFO	Stopped listening on port 52723
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError:1624457379394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624457383658	Marionette	INFO	Stopped listening on port 52807
+RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5046: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+ion: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1624457684447	geckodriver	INFO	Listening on 127.0.0.1:63679
+1624457687484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileuu1Gfo"
+1624457688536	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileuu1Gfo\\search.json.mozlz4", (void 0)))
+1624457696170	Marionette	INFO	Listening on port 63687
+1624457696603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624457700459	Marionette	INFO	Stopped listening on port 63687
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624457974843	geckodriver	INFO	Listening on 127.0.0.1:61650
+1624457977888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilej2XJfu"
+1624457979653	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilej2XJfu\\search.json.mozlz4", (void 0)))
+1624457985874	Marionette	INFO	Listening on port 61663
+1624457986373	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624457989158	Marionette	INFO	Stopped listening on port 61663
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624458266901	geckodriver	INFO	Listening on 127.0.0.1:64574
+1624458269926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileLZOOYL"
+1624458270888	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileLZOOYL\\search.json.mozlz4", (void 0)))
+1624458278963	Marionette	INFO	Listening on port 64582
+1624458279392	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624458282790	Marionette	INFO	Stopped listening on port 64582
+1624458375383	geckodriver	INFO	Listening on 127.0.0.1:56052
+1624458378381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile1vY8Nf"
+1624458379575	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile1vY8Nf\\search.json.mozlz4", (void 0)))
+1624458386134	Marionette	INFO	Listening on port 56060
+1624458386613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624458389869	Marionette	INFO	Stopped listening on port 56060
+1624458426429	geckodriver	INFO	Listening on 127.0.0.1:56121
+1624458429463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileQYLnz3"
+1624458430359	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileQYLnz3\\search.json.mozlz4", (void 0)))
+1624458437687	Marionette	INFO	Listening on port 56129
+1624458438081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624458441702	Marionette	INFO	Stopped listening on port 56129
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624459015456	geckodriver	INFO	Listening on 127.0.0.1:50941
+1624459018510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofiletq8dCp"
+1624459019463	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofiletq8dCp\\search.json.mozlz4", (void 0)))
+1624459025904	Marionette	INFO	Listening on port 50949
+1624459026039	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624459029518	Marionette	INFO	Stopped listening on port 50949
+1624459111991	geckodriver	INFO	Listening on 127.0.0.1:64495
+1624459115033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofiletf6arJ"
+1624459116116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofiletf6arJ\\search.json.mozlz4", (void 0)))
+1624459124855	Marionette	INFO	Listening on port 64503
+1624459125205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624459131895	Marionette	INFO	Stopped listening on port 64503
+1624459151305	geckodriver	INFO	Listening on 127.0.0.1:64578
+1624459154365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile2okWlx"
+1624459156337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile2okWlx\\search.json.mozlz4", (void 0)))
+1624459163290	Marionette	INFO	Listening on port 64588
+1624459163579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624459174123	Marionette	INFO	Stopped listening on port 64588
+1624459228043	geckodriver	INFO	Listening on 127.0.0.1:61509
+1624459231087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile01GdCC"
+1624459231996	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile01GdCC\\search.json.mozlz4", (void 0)))
+1624459238156	Marionette	INFO	Listening on port 61517
+1624459238542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624459247355	Marionette	INFO	Stopped listening on port 61517
+1624501431004	geckodriver	INFO	Listening on 127.0.0.1:62529
+1624501468690	geckodriver	INFO	Listening on 127.0.0.1:58049
+1624501471753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilehzPq4X"
+1624501472687	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilehzPq4X\\search.json.mozlz4", (void 0)))
+1624501477961	Marionette	INFO	Listening on port 58057
+1624501478483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624501490428	Marionette	INFO	Stopped listening on port 58057
+1624501596918	geckodriver	INFO	Listening on 127.0.0.1:59465
+1624501599959	mozrunner::runner	INFO	Running command: "C:\\P1624501602410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozproficonsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile1z1m5u\\search.json.mozlz4", (void 0)))
+1624501618428	Marionette	INFO	Listening on port 59488
+1624501618471	Marionette	WARN	TLS certificate errors will console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilevDz5Bf\\search.json.mozlz4"1624501628498	Marionette	INFO	Stopped listening on port 59476
+aScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1624501630976	Marionette	INFO	Stopped listening on port 59488
+failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+1624501625806	Marionette	INFO	Stopped listening on port 59563
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+1624501740878	geckodriver	INFO	Listening on 127.0.0.1:52689
+1624501743937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileoVIcN2"
+1624501744753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileoVIcN2\\search.json.mozlz4", (void 0)))
+1624501749536	Marionette	INFO	Listening on port 51440
+1624501749659	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1624501762686	Marionette	INFO	Stopped listening on port 51440
+1624501851334	geckodriver	INFO	Listening on 127.0.0.1:52767
+1624501854368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile70BKZc"
+1624501855157	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile70BKZc\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1624501859686	Marionette	INFO	Listening on port 52777
+1624501859848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624501860615	Marionette	INFO	Stopped listening on port 52777
+1624502078852	geckodriver	INFO	Listening on 127.0.0.1:53238
+1624502081886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilekFWxlf"
+1624502082950	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofilekFWxlf\\search.json.mozlz4", (void 0)))
+1624502087621	Marionette	INFO	Listening on port 53246
+1624502088070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624502099683	Marionette	INFO	Stopped listening on port 53246
+1624502166692	geckodriver	INFO	Listening on 127.0.0.1:54649
+1624502169756	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile8dR6JP"
+1624502170841	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofile8dR6JP\\search.json.mozlz4", (void 0)))
+1624502175817	Marionette	INFO	Listening on port 54657
+1624502176379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624502190982	Marionette	INFO	Stopped listening on port 54657
+1624502305172	geckodriver	INFO	Listening on 127.0.0.1:50725
+1624502308210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileVdJjlT"
+1624502309306	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sunny\\AppData\\Local\\Temp\\rust_mozprofileVdJjlT\\search.json.mozlz4", (void 0)))
+1624502314980	Marionette	INFO	Listening on port 50736
+1624502315034	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1624502337220	Marionette	INFO	Stopped listening on port 50736
