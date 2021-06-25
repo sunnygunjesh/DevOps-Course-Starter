@@ -9,6 +9,8 @@ from todo_app.trello_config import TrelloConfig
 from todo_app.trello_client import create_trello_board,delete_trello_board,get_todo_lists_on_board,get_doing_lists_on_board,get_done_lists_on_board
 from threading import Thread
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.remote.webelement import WebElement
 
 @pytest.fixture(scope='module')
 def app_with_temp_board(): 
@@ -51,7 +53,21 @@ def driver():
     with webdriver.Firefox() as driver:
             yield driver
 
-def test_task_journey(driver, app_with_temp_board):
-    driver.get('http://localhost:5000/')
-    assert driver.title == 'To-Do App'
-    time.sleep(15)
+def test_task_journey(driver: webdriver, app_with_temp_board):   
+    driver.get('http://localhost:5000/') 
+    #text_box: WebElement = driver.find_element_by_name('title')
+    text_box: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
+    d.find_element_by_name('title'))
+    text_box.send_keys("Test Todo")
+    submit_button: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
+    d.find_element_by_name('submit'))
+    submit_button.click()
+    doing_button: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
+    d.find_element_by_name('doing-button'))
+    doing_button.click()
+    done_button: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
+    d.find_element_by_name('done-button'))
+    done_button.click()
+ #  item_text: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
+ #  d.find_element_by_name('item-text'))
+ #  assert item_text.text == 'Test Todo - Done'    

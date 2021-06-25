@@ -17,7 +17,7 @@ def create_app():
         item_view_model = ViewModel(items)
         return  render_template('index.html',view_model=item_view_model)
 
-    @app.route('/items/new', methods=['POST'])
+    @app.route('/item/add', methods=['POST'])
     def add_item():
         name = request.form['title']
         trello.add_card(name,trello_config)
