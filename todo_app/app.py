@@ -36,9 +36,9 @@ def create_app():
         return redirect('/')
 
     @app.route('/item/<id>/undo')
-    def undo_card_move(id):
+    def move_item_to_todo(id):
     #    trello.undo_card_movement(id)
-        trello.undo_done_card(id,trello_config)
+        trello.move_card_to_todo(id,trello_config)
         return redirect('/')
 
     return app

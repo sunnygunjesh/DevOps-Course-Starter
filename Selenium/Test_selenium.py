@@ -68,6 +68,6 @@ def test_task_journey(driver: webdriver, app_with_temp_board):
     done_button: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
     d.find_element_by_name('done-button'))
     done_button.click()
- #  item_text: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
- #  d.find_element_by_name('item-text'))
- #  assert item_text.text == 'Test Todo - Done'    
+    item_text: WebElement = WebDriverWait(driver, timeout=5).until(lambda d:
+    d.find_element_by_name('item-text'))
+    assert item_text.text == 'Test Todo - Done'    

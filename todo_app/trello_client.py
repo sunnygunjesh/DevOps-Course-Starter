@@ -44,7 +44,7 @@ def move_to_done_card(id,trello_config):
     if response.status_code != 200:
         raise Exception(f"Wrong status code returned for a moved card by id request: {response.status_code}")
 
-def undo_done_card(id,trello_config):
+def move_card_to_todo(id,trello_config):
     undoquery = {'idList': trello_config.todo_list_id, 'key': trello_config.key, 'token': trello_config.token}
     undo_url = f"{trello_config.base_url}/cards/{id}"
     response = requests.put(url= undo_url, params = undoquery)
