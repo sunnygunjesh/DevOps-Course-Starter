@@ -21,3 +21,10 @@ class TodoItem:
         elif card["idList"] == os.getenv("DOING_LIST_ID"):
             status = "Doing"
         return cls(id, status, title)
+
+class ViewModel:
+ def __init__(self, items):
+ self._items = items
+ @property
+ def items(self):
+ return self._items
