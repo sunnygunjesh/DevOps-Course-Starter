@@ -61,3 +61,13 @@ Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser
 
 Above can be run in batch by using the setup.sh script 
 The script installs PyEnv, pip, poetry. Clone the web-app and copy the environment variables
+
+## Testing of To-Do App : Unit Testing, Integration testing and E2E Testing
+
+3 Tests have been added - Unit Testing, Integration testing and End to End Testing.
+
+Test modules are stored in Test_module (Unit Testing and Intergration Testing) and Selenium (for E2E testing).
+
+Following command needs to run for pytest modules : 'poetry run pytest'
+
+For E2E test: Install Chromedriver, Selenium and geckodriver, Firefox driver is also used for E2E testing(automated testing).

@@ -1,6 +1,5 @@
 from flask import Flask, app,render_template, redirect, request
 from todo_app import trello_config
-
 import todo_app.trello_client as trello
 from todo_app.view_model import ViewModel
 from todo_app.todo_item import TodoItem

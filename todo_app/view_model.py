@@ -31,26 +31,27 @@ class ViewModel:
                 output.append(item)
         return output
 
-    @property
-    def should_show_all_done_items(self):
-        output=[]
-        for item in self.items:
-            if item.status=="Done":
-                output.append(item)
-        return output
+    # For stretch goals,no longer in use 
+    # @property
+    # def should_show_all_done_items(self):
+    #     output=[]
+    #     for item in self.items:
+    #         if item.status=="Done":
+    #             output.append(item)
+    #     return output
 
-    @property
-    def recent_done_items(self):
-        output=[]
-        for item in self.items:
-            if item.status=="Done":
-                output.append(item)
-        return output
+    # @property
+    # def recent_done_items(self):
+    #     output=[]
+    #     for item in self.items:
+    #         if item.status=="Done":
+    #             output.append(item)
+    #     return output
 
-    @property
-    def older_done_items(self):
-        output=[]
-        for item in self.items:
-            if item.status=="Done":
-                output.append(item)
-        return output
+    # @property
+    # def older_done_items(self):
+    #     output=[]
+    #     for item in self.items:
+    #         if item.status=="Done":
+    #             output.append(item)
+    #     return output
